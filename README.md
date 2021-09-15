@@ -20,3 +20,13 @@ The query I used to hit the GitHub API to retreive a list of the most starred PH
 (Public repositories with the language tag PHP and more than 10,000 stars is what I considered as the most starred PHP projects)
 
 
+# Routing
+
+Request to refresh database received.
+Found git_php_repos database in MySQL server instance.
+Found or created repositories table.
+curl session initialized.
+curl options set.
+curl session finished.
+curl session closed.
+curl successful.
