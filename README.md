@@ -9,6 +9,7 @@
 - [How to install](#how-to-install)
 - [How to use](#how-to-use)
 
+# Overview
 
 This is an assessment to display the most starred public PHP projects in GitHub. It consits of some client code (html, css, javascript) that makes calls to files hosted on a web server (php).
 
