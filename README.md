@@ -9,8 +9,11 @@ The query I used to hit the GitHub API to retreive a list of the most starred PH
 
 PHPAssessment/
   ├── css/
+  
   │    └── style.css
+  
   ├── includes/
+  
   │    ├── debug.log
   │    ├── create_repos_table.sql
   │    ├── refresh_client.php
