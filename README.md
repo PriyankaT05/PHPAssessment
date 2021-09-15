@@ -7,3 +7,25 @@ The query I used to hit the GitHub API to retreive a list of the most starred PH
    **https://api.github.com/search/repositories?q=stars:%3E10000+language:php+is:public**   
 (Public repositories with the language tag PHP and more than 10,000 stars is what I considered as the most starred PHP projects)
 
+PHPAssessment/
+  ├── css/
+  │    └── style.css
+  ├── includes/
+  │    ├── debug.log
+  │    ├── create_repos_table.sql
+  │    ├── refresh_client.php
+  │    ├── refresh_database.php
+  │    ├── sample_output.txt
+  │    └── send_card.php
+  ├── js/
+  │    ├── jquery.js
+  │    └── requestor.js
+  ├── materialize/
+  │    ├── css/
+  │    |	└── materialize.min.css
+  │    ├── js/
+  │    |	└── materialize.min.js
+  │    ├── LICENSE
+  │    └── README.md
+  ├── index.php
+  └── README.md
