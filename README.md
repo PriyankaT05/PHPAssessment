@@ -1,4 +1,15 @@
-# PHPAssessment
+<p align="center">
+  <h3 align="center">PHPAssessment</h3></p>
+
+# Table of contents
+
+- [Overview](#overview)
+- [Architecture description](#architecture-description)
+- [Routing diagram](#routing-diagram)
+- [How to install](#how-to-install)
+- [How to use](#how-to-use)
+
+
 This is an assessment to display the most starred public PHP projects in GitHub. It consits of some client code (html, css, javascript) that makes calls to files hosted on a web server (php).
 
 The server queries the GitHub API's search/repositories endpoint: 'https://api.github.com/search/repositories' for repository information and stores the information in a MySQL database. Then it can retrieve that information to create HTML to send to the client.
