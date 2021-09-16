@@ -121,7 +121,7 @@ GitHub responds to route #5 request with JSON encoded repository data.
 # Tools Used
 
 <ul>
-  <li>XAMPP web server - This is an open-source web server to be installed in your local machine. This package provides PHP development environment with MySQL database integrated in it.</li>
+  <li><a href="https://www.apachefriends.org/index.html" target="_blank">XAMPP web server</a> - This is an open-source web server to be installed in your local machine. This package provides PHP development environment with MySQL database integrated in it.</li>
   <li><a href="https://materializecss.com/" target="_blank">Materialize CSS</a> - This is a free framework for presentation purpose.</li>
 </ul>
 
