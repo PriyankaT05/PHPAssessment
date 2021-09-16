@@ -132,6 +132,7 @@ GitHub responds to route #5 request with JSON encoded repository data.
 1. Install any web server of your choice. I used XAMPP.
 
 2. If you've installed XAMPP, you can open the XAMPP Control Panel as shown below. Apache is the name of the web server bundled with XAMPP.
+
 ![image](https://user-images.githubusercontent.com/7216897/133658155-27c78be9-7ad1-4558-b18f-0411cfd5a236.png)
 
 3. Once you've instanciated Apache on your system you can click "Start" and then "Stop" under "Actions" in the Control Panel to start and stop the server respectively.
@@ -151,6 +152,7 @@ GitHub responds to route #5 request with JSON encoded repository data.
 4. The sidebar will automatically refresh and you should see php_assessment listed under "New" in the sidebar. This signifies that your database is created. You do not need to create any tables in the database.
 
 5. Below screenshot shows the php_assessment database and 'repositories' table columns and data.
+
 ![image](https://user-images.githubusercontent.com/7216897/133660863-5d18420f-2df7-406d-ab95-a7ffea1cfc7f.png)
 
 # Results
