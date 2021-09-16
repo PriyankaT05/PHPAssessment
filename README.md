@@ -53,7 +53,7 @@ php_assessment file structure
 
 **includes/debug.log** - this log file is overwritten everytime refresh_database.php is executed. It contains helpful development information about success/failure of connecting to the MySQL database and cURL execution of the API query and the code-generated insert statements.
 
-**includes/debug_with_errors.log** - this log file has information and failure messages when I used API search query with parameters to retrieve all public php repsotiories starred above 10000 (NOTE: this file is only for the assessment reference purposes and is not part of the working code).
+**includes/debug_with_errors.log** - this log file has information and failure messages when I used API search query with parameters to retrieve all public php repsotiories starred above 10000 (NOTE: this file is only for the assessment reference purpose and is not part of the working code).
 
 **includes/refresh_database.php** - this file performs two things in sequence
 1. Queries the repositories table for repository information.
