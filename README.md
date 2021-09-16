@@ -157,19 +157,24 @@ GitHub responds to route #5 request with JSON encoded repository data.
 
 1. Go to your favorite browser and visit "localhost/php_assessment".
 
-2. Below screen appears initially when there is no 'repositories table' created yet in the php_assessment database
+2. Below screen appears initially when there is no 'repositories table' created yet in the php_assessment database.
+
 ![image](https://user-images.githubusercontent.com/7216897/133661390-d20fbd1c-ad4d-4da8-93c2-dea4816ce223.png)
 
-3. Click the "REFRESH CLIENT" button and below screen appears when there is repositories table created but no records in the database
+3. Click the "REFRESH CLIENT" button and below screen appears when there is repositories table created but no records in the database.
+
 ![image](https://user-images.githubusercontent.com/7216897/133661166-5de0d394-347d-423b-b4b8-4f2e5d4291f7.png)
 
 4. Click the "REFRESH DATABASE" button to pull GitHub API repository information into your MySQL server instance.
+
 ![image](https://user-images.githubusercontent.com/7216897/133660433-71358a16-c24e-47e0-9ef8-9aa910a351a4.png)
 
 5. Click the "REFRESH CLIENT" button to update the browser with repository information from the MySQL database.
+
 ![image](https://user-images.githubusercontent.com/7216897/133660505-4f750753-3a6f-4158-b024-e326952a2928.png)
 
-6. Expand the listed repository list item to view the asscoaited repository data
+6. Expand the listed repository list item to view the asscoaited repository data.
+
 ![image](https://user-images.githubusercontent.com/7216897/133660700-735a3316-0a91-49c1-85e1-f2bb264df379.png)
 
 
