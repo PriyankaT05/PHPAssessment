@@ -18,11 +18,13 @@ The server queries the GitHub API's search/repositories endpoint: 'https://api.g
 
 # File Structure
 
-|_ css
+|_ php_assessment
+
+  |_ css
 
     |_ style.css
     
-|_ includes
+  |_ includes
 
     |_ create_table.sql
     |_ debug.log
@@ -30,19 +32,19 @@ The server queries the GitHub API's search/repositories endpoint: 'https://api.g
     |_ refresh_database.php
     |_ send_message.php
     
-|_ js
+  |_ js
 
     |_ jquery.js    
     |_ main.js
-    
-|_ materialize
+      
+  |_ materialize
 
     |_ css
         |_ materialize.min.css
     |_ js
         |_ materialize.min.js
         
-|_ index.php
+  |_ index.php
 
 **css/style.css** - Adding our own styles
 
