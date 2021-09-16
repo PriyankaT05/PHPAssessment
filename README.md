@@ -50,13 +50,13 @@ php_assessment file structure
 
 **includes/create_table.sql** - Sql query to create 'repositories' table in 'php_assessment' database in localhost's MySQL Server.
 
-**inlcudes/debug.log** - this log file is overwritten everytime refresh_database.php is executed. It contains helpful development information about success/failure of connecting to the MySQL database and cURL execution of the API query and the code-generated insert statements.
+**includes/debug.log** - this log file is overwritten everytime refresh_database.php is executed. It contains helpful development information about success/failure of connecting to the MySQL database and cURL execution of the API query and the code-generated insert statements.
 
-**inlcudes/refresh_database.php** - this file performs two things in sequence
+**includes/refresh_database.php** - this file performs two things in sequence
     1. Queries the repositories table for repository information.
     2. Iterates through the repository data received and outputs HTML to return to the client.
 
-**inlcudes/refresh_database.php** - this file performs three things in sequence
+**includes/refresh_database.php** - this file performs three things in sequence
     1. Create 'repositories' table and schema in php_assessment database of localhost's MySQL server if it doesn't exist.
     2. Query the GitHub API to retreive a list of the most starred PHP projects in serialized JSON format. Public repositories with the language tag PHP and more than 10,000 stars are considered "most starred PHP projects". **(SEE NOTE BELOW)**
     3. Creates and executes a SQL query to insert values into our repositories table.
@@ -68,7 +68,7 @@ php_assessment file structure
     **But I had to modify the API search parameters to get repositories starred between 15000 and 33000, since there is INSERT ANOMALY caused while getting all starred repositories greater than 10000 and performing the database insert. Hence the query I used in my code is as below: 
     https://api.github.com/search/repositories?q=stars:15000..33000+language:php+is:public**
     
-**inlcudes/send_message.php** - this file is included in refresh_database.php and refresh_client.php. It creates a Materialize card with a message on what the server encountered.
+**includes/send_message.php** - this file is included in refresh_database.php and refresh_client.php. It creates a Materialize card with a message on what the server encountered.
 
 **js/main.js** - contains the Javascript necessary to make calls to the server and update the client's browser with received information and initiates collapsible function.
 
