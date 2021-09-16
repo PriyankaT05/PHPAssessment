@@ -135,17 +135,15 @@ GitHub responds to route #5 request with JSON encoded repository data.
 
 ![image](https://user-images.githubusercontent.com/7216897/133658155-27c78be9-7ad1-4558-b18f-0411cfd5a236.png)
 
-3. Once you've instanciated Apache on your system you can click "Start" and then "Stop" under "Actions" in the Control Panel to start and stop the server respectively.
+3. Once you've instanciated Apache on your system you can click "Start" and then "Stop" under "Actions" in the Control Panel to start and stop the server respectively. 
 
 4. Place the php_assessment folder and its contents into the public access folder of your web server. In XAMPP "htdocs" is the public access folder location where I have my files (php_assessment folder).
 
-5. You should now be able to visit localhost/php_assessment to see the UI interface.
+5. Click the Apache Admin button on XAMPP Control Panel and it will open the XAMPP dashboard page in the browser (localhost/dashboard). Click phpMyAdmin in the menu list, you should now be able to visit localhost/phpmyadmin. You can visit localhost/php_assessment to see the UI interface.
 
 <h5>Create and configure your MySQL server instance</h5>
 
-1. In XAMPP, you can create the server instance by clicking the red X button under "Service" in the Modules section of the XMAPP Control Panel.
-
-2. After you've instanciated your server and started the service associated with it, create a database on the server by going to localhost/phpmyadmin control panel in your favorite browser.
+1. Create a database on the server by going to localhost/phpmyadmin control panel in any browser.
 
 3. At the PHPMyAdmin tool, click "New" near the top of the sidebar. In the "Database name" input field that appears, enter php_assessment and click the "Create" button.
 
@@ -157,7 +155,7 @@ GitHub responds to route #5 request with JSON encoded repository data.
 
 # Results
 
-1. Go to your favorite browser and visit "localhost/php_assessment".
+1. Go to any browser and visit "localhost/php_assessment".
 
 2. Below screen appears initially when there is no 'repositories table' created yet in the php_assessment database.
 
@@ -175,7 +173,7 @@ GitHub responds to route #5 request with JSON encoded repository data.
 
 ![image](https://user-images.githubusercontent.com/7216897/133660505-4f750753-3a6f-4158-b024-e326952a2928.png)
 
-6. Expand the listed repository list item to view the asscoaited repository data.
+6. Expand any repository list item to view the asscoaited repository data.
 
 ![image](https://user-images.githubusercontent.com/7216897/133660700-735a3316-0a91-49c1-85e1-f2bb264df379.png)
 
