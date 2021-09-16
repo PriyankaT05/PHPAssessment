@@ -63,9 +63,9 @@ php_assessment file structure
     
 **NOTE**
 
-The query I need to use to hit the GitHub API to retreive the list of the most starred PHP projects is 
-**https://api.github.com/search/repositories?q=stars:%3E10000+language:php+is:public**   
+The query I need to use to hit the GitHub API to retreive the list of the most starred PHP projects is **https://api.github.com/search/repositories?q=stars:%3E10000+language:php+is:public**   
 (Public repositories with the language tag PHP and more than 10,000 stars is what I considered as the most starred PHP projects)
+
 **But I had to modify the API search parameters to get repositories starred between 15000 and 33000, since there is INSERT ANOMALY caused while getting all starred repositories greater than 10000 and performing the database insert. Hence the query I used in my code is as below: 
 https://api.github.com/search/repositories?q=stars:15000..33000+language:php+is:public**
     
