@@ -21,6 +21,7 @@ The server queries the GitHub API's search/repositories endpoint: 'https://api.g
 |_ css
 
     |_ style.css
+    
 |_ includes
 
     |_ create_table.sql
