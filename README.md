@@ -53,15 +53,21 @@ php_assessment file structure
 **includes/debug.log** - this log file is overwritten everytime refresh_database.php is executed. It contains helpful development information about success/failure of connecting to the MySQL database and cURL execution of the API query and the code-generated insert statements.
 
 **includes/refresh_database.php** - this file performs two things in sequence
+
     1. Queries the repositories table for repository information.
+    
     2. Iterates through the repository data received and outputs HTML to return to the client.
 
 **includes/refresh_database.php** - this file performs three things in sequence
+
     1. Create 'repositories' table and schema in php_assessment database of localhost's MySQL server if it doesn't exist.
+    
     2. Query the GitHub API to retreive a list of the most starred PHP projects in serialized JSON format. Public repositories with the language tag PHP and more than 10,000 stars are considered "most starred PHP projects". **(SEE NOTE BELOW)**
+    
     3. Creates and executes a SQL query to insert values into our repositories table.
     
 **NOTE**
+
     The query I need to use to hit the GitHub API to retreive the list of the most starred PHP projects is 
    **https://api.github.com/search/repositories?q=stars:%3E10000+language:php+is:public**   
 (Public repositories with the language tag PHP and more than 10,000 stars is what I considered as the most starred PHP projects)
