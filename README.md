@@ -18,7 +18,7 @@ The server queries the GitHub API's search/repositories endpoint: 'https://api.g
 
 # File Structure
 
-|_ php_assessment
+php_assessment file structure
 
   |_ css
   
