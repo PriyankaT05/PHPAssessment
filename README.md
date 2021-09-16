@@ -61,7 +61,7 @@ php_assessment file structure
     2. Query the GitHub API to retreive a list of the most starred PHP projects in serialized JSON format. Public repositories with the language tag PHP and more than 10,000 stars are considered "most starred PHP projects". **(SEE NOTE BELOW)**
     3. Creates and executes a SQL query to insert values into our repositories table.
     
-    <h4>NOTE</h4>
+**NOTE**
     The query I need to use to hit the GitHub API to retreive the list of the most starred PHP projects is 
    **https://api.github.com/search/repositories?q=stars:%3E10000+language:php+is:public**   
 (Public repositories with the language tag PHP and more than 10,000 stars is what I considered as the most starred PHP projects)
