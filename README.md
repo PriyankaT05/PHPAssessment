@@ -80,7 +80,7 @@ You have an error in your SQL syntax; check the manual that corresponds to your 
 
 **js/main.js** - contains the Javascript necessary to make calls to the server and update the client's browser with received information and also initiates the collapsible function.
 
-**index.php** - Finally, this page is served to the client initially that allows them to make calls via main.js to refresh the database or the client via two buttons.
+**index.php** - this page is served to the client initially that allows them to make calls via main.js to refresh the database or the client via two buttons.
 
 # Architecture
 
