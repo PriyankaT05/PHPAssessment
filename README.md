@@ -46,9 +46,9 @@ php_assessment file structure
         
   |_ index.php
 
-**css/style.css** - Adding our own styles
+**css/style.css** - Adding our own styles.
 
-**includes/create_table.sql** - Sql query to create 'repositories' table in 'php_assessment' database in localhost's MySQL Server (see XAMPP dashboard)
+**includes/create_table.sql** - Sql query to create 'repositories' table in 'php_assessment' database in localhost's MySQL Server.
 
 **inlcudes/debug.log** - this log file is overwritten everytime refresh_database.php is executed. It contains helpful development information about success/failure of connecting to the MySQL database and cURL execution of the API query and the code-generated insert statements.
 
