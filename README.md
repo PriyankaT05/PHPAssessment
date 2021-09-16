@@ -1,5 +1,5 @@
 <p align="center">
-  <h3 align="center">PHP Assessment</h3></p>
+  <h1 align="center">PHP Assessment</h1></p>
 
 # Table of contents
 
