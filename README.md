@@ -28,6 +28,7 @@ php_assessment file structure
   
     |_ create_table.sql
     |_ debug.log
+    |_ debug_with_errors.log
     |_ refresh_client.php
     |_ refresh_database.php
     |_ send_message.php    
@@ -52,6 +53,8 @@ php_assessment file structure
 
 **includes/debug.log** - this log file is overwritten everytime refresh_database.php is executed. It contains helpful development information about success/failure of connecting to the MySQL database and cURL execution of the API query and the code-generated insert statements.
 
+**includes/debug_with_errors.log** - this log file has information and failure messages when I used API search query with parameters to retrieve all public php repsotiories starred above 10000 (NOTE: this file is only for the assessment reference purposes and is not part of the working code).
+
 **includes/refresh_database.php** - this file performs two things in sequence
 1. Queries the repositories table for repository information.
 2. Iterates through the repository data received and outputs HTML to return to the client.
@@ -68,6 +71,10 @@ The query I need to use to hit the GitHub API to retreive the list of the most s
 
 **But I had to modify the API search parameters to get repositories starred between 15000 and 33000, since there is INSERT ANOMALY caused while getting all starred repositories greater than 10000 and performing the database insert. Hence the query I used in my code is as below: 
 https://api.github.com/search/repositories?q=stars:15000..33000+language:php+is:public**
+
+**Error message written to debug.log is below (SEE debug_with_errors.log file for more information)**
+INSERT query failed. See error:
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's companion. It's a collection of multiple types of lists used during securit...' at line 1
     
 **includes/send_message.php** - this file is included in refresh_database.php and refresh_client.php. It creates a Materialize card with a message on what the server encountered.
 
