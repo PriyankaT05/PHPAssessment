@@ -31,15 +31,16 @@ The server queries the GitHub API's search/repositories endpoint: 'https://api.g
     
 |_ js
 
-    |_ jquery.js
-    
+    |_ jquery.js    
     |_ main.js
     
 |_ materialize
+
     |_ css
         |_ materialize.min.css
     |_ js
         |_ materialize.min.js
+        
 |_ index.php
 
 **css/style.css** - Adding our own styles
