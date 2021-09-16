@@ -19,16 +19,22 @@ The server queries the GitHub API's search/repositories endpoint: 'https://api.g
 # File Structure
 
 |_ css
+
     |_ style.css
 |_ includes
+
     |_ create_table.sql
     |_ debug.log
     |_ refresh_client.php
     |_ refresh_database.php
     |_ send_message.php
+    
 |_ js
+
     |_ jquery.js
+    
     |_ main.js
+    
 |_ materialize
     |_ css
         |_ materialize.min.css
