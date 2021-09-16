@@ -78,7 +78,7 @@ You have an error in your SQL syntax; check the manual that corresponds to your 
     
 **includes/send_message.php** - this file is included in refresh_database.php and refresh_client.php. It creates a Materialize card with a message on what the server encountered.
 
-**js/main.js** - contains the Javascript necessary to make calls to the server and update the client's browser with received information and initiates collapsible function.
+**js/main.js** - contains the Javascript necessary to make calls to the server and update the client's browser with received information and also initiates the collapsible function.
 
 **index.php** - Finally, this page is served to the client initially that allows them to make calls via main.js to refresh the database or the client via two buttons.
 
