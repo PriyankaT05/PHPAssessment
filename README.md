@@ -155,7 +155,7 @@ GitHub responds to route #5 request with JSON encoded repository data.
 
 # Results
 
-1.Go to your favorite browser and visit "localhost/php_assessment".
+1. Go to your favorite browser and visit "localhost/php_assessment".
 
 2. Below screen appears initially when there is no 'repositories table' created yet in the php_assessment database
 ![image](https://user-images.githubusercontent.com/7216897/133661390-d20fbd1c-ad4d-4da8-93c2-dea4816ce223.png)
