@@ -31,7 +31,7 @@ php_assessment file structure
     |_ debug_with_errors.log
     |_ refresh_client.php
     |_ refresh_database.php
-    |_ send_message.php    
+    |_ show_message.php    
     
   |_ js
   
@@ -76,7 +76,7 @@ https://api.github.com/search/repositories?q=stars:15000..33000+language:php+is:
 INSERT query failed. See error:
 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's companion. It's a collection of multiple types of lists used during securit...' at line 1
     
-**includes/send_message.php** - this file is included in refresh_database.php and refresh_client.php. It creates a Materialize card with a message on what the server encountered.
+**includes/show_message.php** - this file is included in refresh_database.php and refresh_client.php. It creates a Materialize card with a message on what the server encountered.
 
 **js/main.js** - contains the Javascript necessary to make calls to the server and update the client's browser with received information and also initiates the collapsible function.
 
