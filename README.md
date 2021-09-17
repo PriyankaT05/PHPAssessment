@@ -12,7 +12,7 @@
 
 # Overview
 
-This is an assessment to display the most starred public PHP projects in GitHub. It consits of some client code (html, css, javascript) that makes calls to files hosted on a web server (php). 
+This is an assessment to display the most starred public PHP projects in GitHub. It consists of some client code (html, css, javascript) that makes calls to files hosted on a web server (php). 
 
 The server queries the GitHub API's search/repositories endpoint: 'https://api.github.com/search/repositories' for repository information and stores the information in a MySQL database. Then it can retrieve that information to create HTML to send to the client.
 
@@ -173,7 +173,7 @@ GitHub responds to route #5 request with JSON encoded repository data.
 
 ![image](https://user-images.githubusercontent.com/7216897/133660505-4f750753-3a6f-4158-b024-e326952a2928.png)
 
-6. Expand any repository list item to view the asscoaited repository data.
+6. Expand any repository list item to view the associated repository data.
 
 ![image](https://user-images.githubusercontent.com/7216897/133660700-735a3316-0a91-49c1-85e1-f2bb264df379.png)
 
